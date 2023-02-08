@@ -1,2 +1,6 @@
-[InternetShortcut]
-URL=https://github.com/programmercloud/mobile-menu-design/tree/main/js
+$(function () {
+  $(".menuitem").click(function () {
+    $(".menuitem").removeClass("active");
+    $(this).addClass("active");
+  });
+});
